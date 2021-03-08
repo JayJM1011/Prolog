@@ -1,0 +1,26 @@
+month(1) :-
+    write('It\'s January').
+month(2) :-
+    write('It\'s February').
+month(3) :-
+    write('It\'s March').
+month(4) :-
+    write('It\'s April').
+month(5) :-
+    write('It\'s May').
+month(6) :-
+    write('It\'s June').
+month(7) :-
+    write('It\'s July').
+month(8) :-
+    write('It\'s August').
+month(9) :-
+    write('It\'s September').
+month(10) :-
+    write('It\'s October').
+month(11) :-
+    write('It\'s November').
+month(12) :-
+    write('It\'s December').
+month(Other) :-
+    format('You are an Alien').
